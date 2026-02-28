@@ -80,7 +80,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{eaa398cd-4e13-4d0f-b8db-4f7d762eefd2}">
 		<property name="volume">
-			<value>-7.5</value>
+			<value>-0.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{fc4e953b-753a-40e3-93e2-8224fdeea289}</destination>
@@ -137,7 +137,7 @@
 			<value>4900</value>
 		</property>
 		<property name="earlyDelay">
-			<value>7</value>
+			<value>4</value>
 		</property>
 		<property name="lateDelay">
 			<value>12</value>
@@ -146,19 +146,16 @@
 			<value>170</value>
 		</property>
 		<property name="lowShelfGain">
-			<value>-5</value>
+			<value>-4</value>
 		</property>
 		<property name="highCut">
 			<value>4800</value>
 		</property>
 		<property name="earlyLateMix">
-			<value>93</value>
+			<value>100</value>
 		</property>
 		<property name="wetLevel">
 			<value>10</value>
-		</property>
-		<property name="dryLevel">
-			<value>3.5</value>
 		</property>
 	</object>
 </objects>
