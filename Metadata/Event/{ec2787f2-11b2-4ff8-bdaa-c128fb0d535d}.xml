@@ -5,7 +5,7 @@
 			<value>combotitle</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8ebcabe8-b1b3-4776-bba5-0b4ddcd22829}</destination>
@@ -103,7 +103,6 @@
 	<object class="MixerBusEffectChain" id="{69e985da-ef9d-4a56-bacb-ce931c6e6608}">
 		<relationship name="effects">
 			<destination>{b8e4ebf7-bff0-4eb0-a4d7-b10f3d2a1c55}</destination>
-			<destination>{7cd08f54-6543-4c06-bdea-53ed4324ac49}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d1274aed-f2be-4508-9aae-2d70bd79d4e1}" />
@@ -116,20 +115,6 @@
 	</object>
 	<object class="MixerBusFader" id="{b3276095-52a5-4ddc-9fe3-6209d82f3f34}" />
 	<object class="MixerBusFader" id="{b8e4ebf7-bff0-4eb0-a4d7-b10f3d2a1c55}" />
-	<object class="SpatialiserEffect" id="{7cd08f54-6543-4c06-bdea-53ed4324ac49}">
-		<property name="minimumDistance">
-			<value>1.35000002</value>
-		</property>
-		<property name="maximumDistance">
-			<value>25</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>2000</value>
-		</property>
-	</object>
 	<object class="SingleSound" id="{8d27a536-a24a-4382-8d58-7f6c1425f629}">
 		<relationship name="audioFile">
 			<destination>{cddf7a7b-bc2f-4b47-9cd7-e6fee416743b}</destination>

@@ -5,7 +5,7 @@
 			<value>comboend</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8ebcabe8-b1b3-4776-bba5-0b4ddcd22829}</destination>
@@ -104,7 +104,6 @@
 		<relationship name="effects">
 			<destination>{76067b23-b488-4c0f-9fb8-b6f65ca977c3}</destination>
 			<destination>{fb3e3556-ac8e-4e7d-b2de-3cbe62aa9dc3}</destination>
-			<destination>{c495fa3c-bd43-4d27-b5fc-9ce8af9c7e51}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b71b9c03-0f79-4bce-aecd-0b20c4de087b}" />
@@ -122,20 +121,6 @@
 		<relationship name="modulators">
 			<destination>{d477c0c9-77f0-41fb-8a79-faebf2da42a2}</destination>
 		</relationship>
-	</object>
-	<object class="SpatialiserEffect" id="{c495fa3c-bd43-4d27-b5fc-9ce8af9c7e51}">
-		<property name="minimumDistance">
-			<value>1.35000002</value>
-		</property>
-		<property name="maximumDistance">
-			<value>25</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>2000</value>
-		</property>
 	</object>
 	<object class="RandomizerModulator" id="{d477c0c9-77f0-41fb-8a79-faebf2da42a2}">
 		<property name="nameOfPropertyBeingModulated">

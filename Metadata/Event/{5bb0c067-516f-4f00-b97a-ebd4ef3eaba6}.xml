@@ -5,7 +5,7 @@
 			<value>supertauntnotif</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{bee0ecb1-b8c0-45a4-b299-a625b80db3f3}</destination>
@@ -103,7 +103,6 @@
 	<object class="MixerBusEffectChain" id="{41b1dca7-a473-431f-8bd6-c6a3813724c3}">
 		<relationship name="effects">
 			<destination>{9e8b7169-7420-41d5-ad43-3e7b99bf346e}</destination>
-			<destination>{9a10df52-16f2-4a75-8ce8-8975f3633385}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a187432c-e0d0-4ce3-aaa9-98d20742a68c}" />
@@ -117,18 +116,4 @@
 	</object>
 	<object class="MixerBusFader" id="{41a0aa26-d0ba-461d-bb58-56c10085b847}" />
 	<object class="MixerBusFader" id="{9e8b7169-7420-41d5-ad43-3e7b99bf346e}" />
-	<object class="SpatialiserEffect" id="{9a10df52-16f2-4a75-8ce8-8975f3633385}">
-		<property name="minimumDistance">
-			<value>1.35000002</value>
-		</property>
-		<property name="maximumDistance">
-			<value>25</value>
-		</property>
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-		<property name="soundSize">
-			<value>2000</value>
-		</property>
-	</object>
 </objects>
